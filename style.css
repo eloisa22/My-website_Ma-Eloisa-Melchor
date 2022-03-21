@@ -1,34 +1,36 @@
 body {
     margin: 0;
     padding-top: 800px;
-   
+background-color: violet;   
 text-align: center;
-background: linear-gradient(#0D47A1 20%,#64B5F6 80%);
-    color: pink;
+background: linear-gradient(violet 10%,gray 90%);
 }
 
 .profile {
-    padding-top: 50px;
-width: 300px;
-    margin-bottom: 50px;
-    border-radius: 60%;
 
+width: 250px;
+margin-top: 150px;
+    margin-bottom: 50px;
+    border-radius: 40%;
+border:solid;
+border-color:  #C51162;
 }
 
 #welcome {
 
     position: absolute;
-    height: 300px;
+    height: 500px;
     color: white;
     left: 0;
     top: 0;
-    bottom: 0;
+    bottom: 20;
     right: 0;
     opacity: 0.83;
         display: table;
     width: 100%;
     height: 60%;
-    z-index: 9;
+    z-index: 2;
+background: linear-gradient(pink 20%,black 80%);
     
 }
 
@@ -40,7 +42,7 @@ h1 {
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 300;
 text-align: center;
-color: white;
+color: #C51162;
 }
 
 
@@ -48,19 +50,19 @@ color: white;
 
 
 h2 {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 300;
     line-height: 1.2;
     font-family: monospace;
-color; white;
+color:pink;
 }
 
 
 
 .line {
-    height: 6px;
-    background-color: #000;
-    width: 70px;
+    height: 3px;
+    background-color: white;
+    width: 400px;
     margin: 8px auto;
 }
 
@@ -71,7 +73,7 @@ p {
     font-size: 22px;
     line-height: 1.3;
 color:white;
-
+font-family: 'Merienda', cursive;
 }
 
 .parallax-inner {
@@ -98,17 +100,16 @@ color:white;
 
 .links {
     float: left;
-    color: fuchsia;
     padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
-    font-family: fantasy;
-    font-size: 20px
+    font-family: monospace;
+   font-size: 18px
 }
 
 .links:hover {
-    background-color: pink;
+    background-color: white;
 }
 
 html {
@@ -134,4 +135,4 @@ a {
 
 
 
-
+#p1{font-family: 'Courgette', cursive;}
