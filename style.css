@@ -1,39 +1,9 @@
 body {
     margin: 0;
-    padding-top: 800px;
 background-color: violet;   
 text-align: center;
 background: linear-gradient(violet 10%,gray 90%);
 }
-
-.profile {
-
-width: 250px;
-margin-top: 150px;
-    margin-bottom: 50px;
-    border-radius: 40%;
-border:solid;
-border-color:  #C51162;
-}
-
-#welcome {
-
-    position: absolute;
-    height: 500px;
-    color: white;
-    left: 0;
-    top: 0;
-    bottom: 20;
-    right: 0;
-    opacity: 0.83;
-        display: table;
-    width: 100%;
-    height: 60%;
-    z-index: 2;
-background: linear-gradient(pink 20%,black 80%);
-    
-}
-
 
 
 h1 {
@@ -76,41 +46,11 @@ color:white;
 font-family: 'Merienda', cursive;
 }
 
-.parallax-inner {
-
-    display: table-cell;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-
-}
-
-
-.menu {
-    list-style: none;
-    position: fixed;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
-    z-index: 10;
-    
-}
 
 
 
-.links {
-    float: left;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
-    font-family: monospace;
-   font-size: 18px
-}
 
-.links:hover {
-    background-color: white;
-}
+
 
 html {
     scroll-behavior: smooth;
@@ -127,11 +67,6 @@ a {
 
 
 
-
-.container
-{
-    text-align: center;
-}
 
 
 
